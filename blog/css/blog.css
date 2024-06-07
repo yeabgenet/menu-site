@@ -1,0 +1,371 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    animation-name: fadein;
+animation-duration: 2s;
+  }
+  
+  /* First table css */
+  .box {
+  
+    margin:auto;
+    margin-top: 80px;
+    width: 95%;
+    height: 320px;
+    border-radius: 40px;
+    background-image: url(/blog/img/blog/page-title_9.jpg);
+    /* padding: 70px 0; */
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  
+  .bkt{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .dash{
+    position: relative;
+    justify-content: center;
+    margin:auto;
+    margin-bottom: 45px;
+    width: 120px;
+    height: 5px;
+    border-radius: 40px;
+    background-color: rgb(255, 208, 0);
+  }
+  
+  .homelink {
+    position: relative;
+    margin:auto;
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .homelink a{
+    margin: auto;
+    margin-right: 0px;
+    font-size: 20px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  
+  .homelink a:hover{
+    color: orange;
+    transition: 1.5s;
+  }
+  
+  .homelink p{
+    margin: auto;
+    margin-left: 0;
+    font-size: 18px;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+   
+   }
+  .sub{
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    height: 200PX;
+    display: flex;  
+    margin-bottom: 50PX;
+    background-color: rgb(222, 7, 7);
+    justify-content: space-between;
+    padding-top: 40px;
+  border-radius: 20px;
+  }
+  .sub{
+
+    
+  }
+  .ring{
+
+    background-color: rgb(251, 161, 7);
+    margin-left: 50px;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+
+    border-radius: 40px;
+
+  }
+  .ring img{
+    margin: 20px;
+    height: 50%;
+    object-fit: contain;
+    animation-name: rotate ;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+
+  
+  }
+  @keyframes rotate{ 
+    15%{transform: rotatez(45deg);}
+    
+   }
+
+   .bell input{
+    width: 350px;
+    height: 50px;
+    
+    font-size: 1.15rem;
+    border-radius: 25px;
+    margin-top: 50px;
+    
+
+   }
+   .subscribe{
+    color: #f9f9f9;
+    margin-left: 50px;
+    margin-top: 0px;
+   }
+  
+   .subscribe h1{ 
+    font-size: 2.5rem;
+
+   }
+button{
+    height: 25px;
+    width: 50px;
+    background-color: orange;
+    margin-left: 175px;
+    margin-top: 10px;
+}
+
+.features-section {
+    margin: auto;
+    margin-bottom: 0%;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);;
+    justify-content: space-around;
+ 
+    padding: 20px 0;
+   
+    text-align: center;
+    width: 80%;
+}
+@keyframes fadeIn {
+  50%:(opacity: 0;)
+}
+.feature {
+    flex: 1;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+   width: 350px;
+   height: 350px;
+    border-radius: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    overflow: hidden;
+
+}
+.imags{
+  width: 350px;
+  height: 350px;
+  
+}
+.imags:hover{
+ 
+}
+.icon1 {
+    
+    width: 350px;
+    height: 350px;
+     border-radius: 20px;
+     overflow: hidden;
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .icon2 {
+   
+    width: 350px;
+    height: 350px;
+     border-radius: 20px;
+     overflow: hidden;
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .icon3 {
+    width: 350px;
+    height: 350px;
+     border-radius: 20px;
+     overflow: hidden;
+
+     display: inline-flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .icon4 {
+    width: 350px;
+    height: 350px;
+     border-radius: 20px;
+     display: inline-flex;
+     justify-content: space-between;
+     overflow:hidden ;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+ .icon5 {
+    width: 350px;
+    height: 350px;
+     border-radius: 20px;
+     display: inline-flex;
+     justify-content: space-between;
+     overflow: hidden;
+     align-items: center;
+     margin-bottom: 10px;
+ }
+     
+
+.feature h3 {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+.read{
+   background-color: #f79f06;
+   margin: auto;
+   padding-top: 10px;
+  width: 150px;
+  height: 30px;
+  border-radius: 20px;
+}
+.read a{ 
+  color: #ffffff;
+  text-decoration: none; 
+ 
+  font-size:15px ;
+}
+.read a:hover{
+  color: aqua;
+}
+.read:hover{
+  
+  background-color: #000;
+}
+
+
+.description {
+display:none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.feature:hover .description {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+   
+}
+.feature:hover .icon { height: 250px ; 
+  transition:2s;
+   
+}
+.feature:hover .icon1 { height: 250px ; 
+  transition:2s;  
+}
+.feature:hover .icon2 { height: 250px ; 
+  transition:2s;  
+}
+.feature:hover .icon3 { height: 250px ; 
+  transition:2s;  
+}
+.feature:hover .icon4 { height: 250px ; 
+  transition:2s;  
+}
+.feature:hover .icon5 { height: 250px ; 
+  transition:2s;  
+    
+}
+
+.feature h1:hover {
+  
+color: rgb(228, 156, 0);
+
+}
+
+
+
+/* 3buttons */
+
+.buttons {
+  height: min-content;
+
+  display: flex;
+  /* gap: 5px; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin: 0;
+  background-color: #fff;
+}
+
+.circle-button {
+  margin: 0;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 50%;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.circle-button.active  {
+  background-color: red;
+}
+
+
+.circle-button .arrow {
+  font-size: 20px;
+}
+.circle-button a{
+  text-decoration: none;
+  color: antiquewhite;
+}
+.circle-button:hover{
+  background-color: red;
+}
